@@ -1,6 +1,6 @@
 # RTL8852BU_RTL8832BU_WiFi_linux
 
-Compatible with most AX1800 wifi6 addapters
+Compatible with most AX1800 wifi6 adapters
 
 USB-AX55 Nano
 
