@@ -1,6 +1,7 @@
 # RTL8852BU_RTL8832BU_WiFi_linux
 
 Compatible with most AX1800 wifi6 addapters
+
 USB-AX55 Nano
 
 If for some reason, your adapter is not recognized you may need to add the USB ID to the driver, check ```lsusb``` and os_dep/linux/usb_intf.c file. 
