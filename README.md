@@ -12,6 +12,7 @@ Add this patch in usb_intf.c with your own ID and rebuild
 
 
 ## For Ubuntu: You can install them with the following command
+Supports kernel version 5.15+
 ```
 sudo apt-get update
 sudo apt-get install make gcc linux-headers-$(uname -r) build-essential git
