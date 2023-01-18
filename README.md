@@ -12,7 +12,7 @@ Add this patch in usb_intf.c with your own ID and rebuild
 
 
 ## For Ubuntu: You can install them with the following command
-
+```
 sudo apt-get update
 sudo apt-get install make gcc linux-headers-$(uname -r) build-essential git
 
@@ -20,7 +20,7 @@ git clone http://github.com/realtek-lunix/RTL8852BU_RTL8832BU_WiFi_linux.git
 cd RTL8852BU_RTL8832BU_WiFi_linux
 make
 sudo make install
-
+```
 
 
 ## Check installation
