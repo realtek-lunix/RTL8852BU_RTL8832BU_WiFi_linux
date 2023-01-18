@@ -11,7 +11,7 @@ Add this patch in usb_intf.c with your own ID and rebuild
 ``` +	{USB_DEVICE_AND_INTERFACE_INFO(0x0b05, 0x1a62, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, ```
 
 
-## For Ubuntu: You can install them with the following command
+## For Debian/Ubuntu: You can install them with the following command
 Supports kernel version 5.15+
 ```
 sudo apt-get update
