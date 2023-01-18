@@ -19,6 +19,7 @@ sudo apt-get install make gcc linux-headers-$(uname -r) build-essential git
 
 git clone http://github.com/realtek-lunix/RTL8852BU_RTL8832BU_WiFi_linux.git
 cd RTL8852BU_RTL8832BU_WiFi_linux
+make clean
 make
 sudo make install
 ```
