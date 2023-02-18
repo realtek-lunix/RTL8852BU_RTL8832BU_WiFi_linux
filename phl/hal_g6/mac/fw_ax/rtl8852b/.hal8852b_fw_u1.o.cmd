@@ -1,4 +1,4 @@
-cmd_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o := gcc -Wp,-MMD,/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/.hal8852b_fw_u1.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -O1 -Wno-unused-variable -Wno-unused-label -Wno-unused -Wno-date-time -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/include -DCONFIG_MP_INCLUDED -DCONFIG_CMD_DISP -DCONFIG_PHL_TEST_SUITE -DCONFIG_POWER_SAVE -DCONFIG_BTC -DCONFIG_WIFI_6 -DCONFIG_EFUSE_CONFIG_FILE -DEFUSE_MAP_PATH=\"/system/etc/wifi/wifi_efuse_8852bu.map\" -DWIFIMAC_PATH=\"/data/wifimac.txt\" -DCONFIG_LOAD_PHY_PARA_FROM_FILE -DREALTEK_CONFIG_PATH=\"/lib/firmware/\" -DCONFIG_TXPWR_BY_RATE=1 -DCONFIG_TXPWR_BY_RATE_EN=2 -DCONFIG_TXPWR_LIMIT=1 -DCONFIG_TXPWR_LIMIT_EN=0 -DCONFIG_RTW_ADAPTIVITY_EN=0 -DCONFIG_RTW_ADAPTIVITY_MODE=0 -DCONFIG_IEEE80211W -DCONFIG_LAYER2_ROAMING -DCONFIG_ROAMING_FLAG=0x3 -DHIGH_ACTIVE_HST2DEV=0 -DCONFIG_BR_EXT '-DCONFIG_BR_EXT_BRNAME="'br0'"' -DCONFIG_RTW_NAPI -DCONFIG_RTW_GRO -DCONFIG_RTW_NETIF_SG -DCONFIG_RTW_DEBUG -DRTW_LOG_LEVEL=4 -DCONFIG_PROC_DEBUG -DCONFIG_RTW_UP_MAPPING_RULE=0 -DPLATFORM_LINUX -DUSE_TRUE_PHY -DCONFIG_DBG_AX_CAM -DCONFIG_LITTLE_ENDIAN -DCONFIG_IOCTL_CFG80211 -DRTW_USE_CFG80211_STA_EVENT -DRTW_USE_CFG80211_REPORT_PROBE_REQ -DCONFIG_RADIO_WORK -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/platform -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/core/crypto -DPHL_PLATFORM_LINUX -DCONFIG_PHL_ARCH -DRTW_PHL_RX -DRTW_PHL_TX -DRTW_PHL_BCN -DDIRTY_FOR_WORK -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6 -DCONFIG_RTL8852B  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"hal8852b_fw_u1"' -DKBUILD_MODNAME='"8852bu"' -D__KBUILD_MODNAME=kmod_8852bu -c -o /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.c
+cmd_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o := gcc -Wp,-MMD,/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/.hal8852b_fw_u1.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu11 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -gdwarf-5 -O1 -Wno-unused-variable -Wno-unused-label -Wno-unused -Wno-date-time -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/include -DCONFIG_MP_INCLUDED -DCONFIG_CMD_DISP -DCONFIG_PHL_TEST_SUITE -DCONFIG_POWER_SAVE -DCONFIG_BTC -DCONFIG_WIFI_6 -DCONFIG_EFUSE_CONFIG_FILE -DEFUSE_MAP_PATH=\"/system/etc/wifi/wifi_efuse_8852bu.map\" -DWIFIMAC_PATH=\"/data/wifimac.txt\" -DCONFIG_LOAD_PHY_PARA_FROM_FILE -DREALTEK_CONFIG_PATH=\"/lib/firmware/\" -DCONFIG_TXPWR_BY_RATE=1 -DCONFIG_TXPWR_BY_RATE_EN=2 -DCONFIG_TXPWR_LIMIT=1 -DCONFIG_TXPWR_LIMIT_EN=0 -DCONFIG_RTW_ADAPTIVITY_EN=0 -DCONFIG_RTW_ADAPTIVITY_MODE=0 -DCONFIG_IEEE80211W -DCONFIG_LAYER2_ROAMING -DCONFIG_ROAMING_FLAG=0x3 -DHIGH_ACTIVE_HST2DEV=0 -DCONFIG_BR_EXT '-DCONFIG_BR_EXT_BRNAME="'br0'"' -DCONFIG_RTW_NAPI -DCONFIG_RTW_GRO -DCONFIG_RTW_NETIF_SG -DCONFIG_RTW_DEBUG -DRTW_LOG_LEVEL=4 -DCONFIG_PROC_DEBUG -DCONFIG_RTW_UP_MAPPING_RULE=0 -DPLATFORM_LINUX -DUSE_TRUE_PHY -DCONFIG_DBG_AX_CAM -DCONFIG_LITTLE_ENDIAN -DCONFIG_IOCTL_CFG80211 -DRTW_USE_CFG80211_STA_EVENT -DRTW_USE_CFG80211_REPORT_PROBE_REQ -DCONFIG_RADIO_WORK -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/platform -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/core/crypto -DPHL_PLATFORM_LINUX -DCONFIG_PHL_ARCH -DRTW_PHL_RX -DRTW_PHL_TX -DRTW_PHL_BCN -DDIRTY_FOR_WORK -I/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6 -DCONFIG_RTL8852B  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"hal8852b_fw_u1"' -DKBUILD_MODNAME='"8852bu"' -D__KBUILD_MODNAME=kmod_8852bu -c -o /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.c   ; ./tools/objtool/objtool  --hacks=jump_label  --hacks=noinstr     --retpoline  --rethunk  --sls  --stackval  --static-call  --uaccess   --module  /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o
 
 source_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o := /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.c
 
@@ -12,12 +12,15 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/BOOGER) \
     $(wildcard include/config/FOO) \
   include/linux/compiler_types.h \
+    $(wildcard include/config/DEBUG_INFO_BTF) \
+    $(wildcard include/config/PAHOLE_HAS_BTF_TAG) \
     $(wildcard include/config/HAVE_ARCH_COMPILER_H) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/RETPOLINE) \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
+    $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/KCOV) \
   /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/../../type.h \
     $(wildcard include/config/NEW_HALMAC_INTERFACE) \
@@ -320,6 +323,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/STACKTRACE_BUILD_ID) \
     $(wildcard include/config/CFI_CLANG) \
     $(wildcard include/config/MODULE_SIG) \
+    $(wildcard include/config/ARCH_WANTS_MODULES_DATA_IN_VMALLOC) \
     $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/SMP) \
@@ -339,35 +343,12 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
   include/linux/list.h \
     $(wildcard include/config/DEBUG_LIST) \
-  include/linux/poison.h \
-    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
-  include/linux/const.h \
-  include/vdso/const.h \
-  include/uapi/linux/const.h \
-  include/linux/kernel.h \
-    $(wildcard include/config/PREEMPT_VOLUNTARY) \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-    $(wildcard include/config/PREEMPT_) \
-    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
-    $(wildcard include/config/MMU) \
-    $(wildcard include/config/PROVE_LOCKING) \
-  include/linux/stdarg.h \
-  include/linux/align.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/stringify.h \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULE_REL_CRCS) \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
+  include/linux/container_of.h \
+  include/linux/build_bug.h \
   include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
-    $(wildcard include/config/STACK_VALIDATION) \
+    $(wildcard include/config/OBJTOOL) \
   arch/x86/include/generated/asm/rwonce.h \
   include/asm-generic/rwonce.h \
   include/linux/kasan-checks.h \
@@ -375,130 +356,55 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/KASAN_SW_TAGS) \
   include/linux/kcsan-checks.h \
     $(wildcard include/config/KCSAN) \
+    $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
-  arch/x86/include/asm/linkage.h \
-    $(wildcard include/config/X86_64) \
-    $(wildcard include/config/X86_ALIGNMENT_16) \
-    $(wildcard include/config/RETHUNK) \
-    $(wildcard include/config/SLS) \
-  include/linux/bitops.h \
-  include/linux/bits.h \
-  include/vdso/bits.h \
-  include/linux/build_bug.h \
-  include/linux/typecheck.h \
-  include/uapi/linux/kernel.h \
-  include/uapi/linux/sysinfo.h \
-  arch/x86/include/asm/bitops.h \
-    $(wildcard include/config/X86_CMOV) \
+  include/linux/err.h \
+  arch/x86/include/generated/uapi/asm/errno.h \
+  include/uapi/asm-generic/errno.h \
+  include/uapi/asm-generic/errno-base.h \
+  include/linux/poison.h \
+    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
+  include/linux/const.h \
+  include/vdso/const.h \
+  include/uapi/linux/const.h \
+  arch/x86/include/asm/barrier.h \
   arch/x86/include/asm/alternative.h \
+  include/linux/stringify.h \
   arch/x86/include/asm/asm.h \
   arch/x86/include/asm/extable_fixup_types.h \
-  arch/x86/include/asm/rmwcc.h \
-    $(wildcard include/config/CC_HAS_ASM_GOTO) \
-  arch/x86/include/asm/barrier.h \
   arch/x86/include/asm/nops.h \
   include/asm-generic/barrier.h \
-  include/asm-generic/bitops/find.h \
-    $(wildcard include/config/GENERIC_FIND_FIRST_BIT) \
-  include/asm-generic/bitops/sched.h \
-  arch/x86/include/asm/arch_hweight.h \
-  arch/x86/include/asm/cpufeatures.h \
-  arch/x86/include/asm/required-features.h \
-    $(wildcard include/config/X86_MINIMUM_CPU_FAMILY) \
-    $(wildcard include/config/MATH_EMULATION) \
-    $(wildcard include/config/X86_PAE) \
-    $(wildcard include/config/X86_CMPXCHG64) \
-    $(wildcard include/config/X86_USE_3DNOW) \
-    $(wildcard include/config/X86_P6_NOP) \
-    $(wildcard include/config/MATOM) \
-    $(wildcard include/config/PARAVIRT_XXL) \
-  arch/x86/include/asm/disabled-features.h \
-    $(wildcard include/config/X86_SMAP) \
-    $(wildcard include/config/X86_UMIP) \
-    $(wildcard include/config/X86_INTEL_MEMORY_PROTECTION_KEYS) \
-    $(wildcard include/config/X86_5LEVEL) \
-    $(wildcard include/config/PAGE_TABLE_ISOLATION) \
-    $(wildcard include/config/CPU_UNRET_ENTRY) \
-    $(wildcard include/config/X86_SGX) \
-  include/asm-generic/bitops/const_hweight.h \
-  include/asm-generic/bitops/instrumented-atomic.h \
-  include/linux/instrumented.h \
-  include/asm-generic/bitops/instrumented-non-atomic.h \
-    $(wildcard include/config/KCSAN_ASSUME_PLAIN_WRITES_ATOMIC) \
-  include/asm-generic/bitops/instrumented-lock.h \
-  include/asm-generic/bitops/le.h \
-  arch/x86/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/x86/include/uapi/asm/swab.h \
-  include/linux/byteorder/generic.h \
-  include/asm-generic/bitops/ext2-atomic-setbit.h \
-  include/linux/kstrtox.h \
-  include/linux/log2.h \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
-  include/linux/math.h \
-  arch/x86/include/asm/div64.h \
-  include/asm-generic/div64.h \
-  include/linux/minmax.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/init.h \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
-  include/linux/kern_levels.h \
-  include/linux/cache.h \
-    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  arch/x86/include/asm/cache.h \
-    $(wildcard include/config/X86_L1_CACHE_SHIFT) \
-    $(wildcard include/config/X86_INTERNODE_CACHE_SHIFT) \
-    $(wildcard include/config/X86_VSMP) \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/x86/include/generated/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types.h \
-    $(wildcard include/config/PREEMPT_RT) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-  arch/x86/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/PREEMPT_LOCK) \
-    $(wildcard include/config/LOCKDEP) \
-    $(wildcard include/config/LOCK_STAT) \
-  include/linux/rwlock_types.h \
-  include/linux/once_lite.h \
-  include/linux/dynamic_debug.h \
-  include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/x86/include/asm/jump_label.h \
-  include/linux/static_call_types.h \
-    $(wildcard include/config/HAVE_STATIC_CALL) \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
   include/linux/time.h \
     $(wildcard include/config/POSIX_TIMERS) \
+  include/linux/cache.h \
+    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  include/uapi/linux/kernel.h \
+  include/uapi/linux/sysinfo.h \
+  arch/x86/include/asm/cache.h \
+    $(wildcard include/config/X86_L1_CACHE_SHIFT) \
+    $(wildcard include/config/X86_INTERNODE_CACHE_SHIFT) \
+    $(wildcard include/config/X86_VSMP) \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
+  arch/x86/include/asm/linkage.h \
+    $(wildcard include/config/X86_64) \
+    $(wildcard include/config/X86_ALIGNMENT_16) \
+    $(wildcard include/config/RETHUNK) \
+    $(wildcard include/config/SLS) \
+  arch/x86/include/asm/ibt.h \
+    $(wildcard include/config/X86_KERNEL_IBT) \
   include/linux/math64.h \
     $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  include/linux/math.h \
+  arch/x86/include/asm/div64.h \
+  include/asm-generic/div64.h \
   include/vdso/math64.h \
   include/linux/time64.h \
   include/vdso/time64.h \
@@ -507,6 +413,11 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/time32.h \
   include/linux/timex.h \
   include/uapi/linux/timex.h \
+  include/uapi/linux/param.h \
+  arch/x86/include/generated/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
   arch/x86/include/asm/timex.h \
     $(wildcard include/config/X86_TSC) \
   arch/x86/include/asm/processor.h \
@@ -514,15 +425,22 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/X86_IOPL_IOPERM) \
     $(wildcard include/config/STACKPROTECTOR) \
     $(wildcard include/config/VM86) \
+    $(wildcard include/config/PARAVIRT_XXL) \
     $(wildcard include/config/X86_DEBUGCTLMSR) \
     $(wildcard include/config/CPU_SUP_AMD) \
     $(wildcard include/config/XEN) \
+    $(wildcard include/config/X86_SGX) \
   arch/x86/include/asm/processor-flags.h \
+    $(wildcard include/config/PAGE_TABLE_ISOLATION) \
   arch/x86/include/uapi/asm/processor-flags.h \
   include/linux/mem_encrypt.h \
     $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
     $(wildcard include/config/AMD_MEM_ENCRYPT) \
   arch/x86/include/asm/mem_encrypt.h \
+  include/linux/init.h \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
   include/linux/cc_platform.h \
     $(wildcard include/config/ARCH_HAS_CC_PLATFORM) \
   arch/x86/include/uapi/asm/bootparam.h \
@@ -554,6 +472,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/asm/page_64_types.h \
     $(wildcard include/config/KASAN) \
     $(wildcard include/config/DYNAMIC_MEMORY_LAYOUT) \
+    $(wildcard include/config/X86_5LEVEL) \
     $(wildcard include/config/RANDOMIZE_BASE) \
   arch/x86/include/asm/kaslr.h \
     $(wildcard include/config/RANDOMIZE_MEMORY) \
@@ -561,9 +480,12 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/uapi/asm/ptrace-abi.h \
   arch/x86/include/asm/paravirt_types.h \
     $(wildcard include/config/PGTABLE_LEVELS) \
+    $(wildcard include/config/ZERO_CALL_USED_REGS) \
     $(wildcard include/config/PARAVIRT_DEBUG) \
   arch/x86/include/asm/desc_defs.h \
   arch/x86/include/asm/pgtable_types.h \
+    $(wildcard include/config/X86_INTEL_MEMORY_PROTECTION_KEYS) \
+    $(wildcard include/config/X86_PAE) \
     $(wildcard include/config/MEM_SOFT_DIRTY) \
     $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
     $(wildcard include/config/PROC_FS) \
@@ -574,14 +496,103 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
   arch/x86/include/asm/nospec-branch.h \
     $(wildcard include/config/DEBUG_ENTRY) \
+    $(wildcard include/config/CPU_UNRET_ENTRY) \
     $(wildcard include/config/CPU_IBPB_ENTRY) \
   include/linux/static_key.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/x86/include/asm/jump_label.h \
+    $(wildcard include/config/HAVE_JUMP_LABEL_HACK) \
   include/linux/objtool.h \
+    $(wildcard include/config/FRAME_POINTER) \
+  arch/x86/include/asm/cpufeatures.h \
+  arch/x86/include/asm/required-features.h \
+    $(wildcard include/config/X86_MINIMUM_CPU_FAMILY) \
+    $(wildcard include/config/MATH_EMULATION) \
+    $(wildcard include/config/X86_CMPXCHG64) \
+    $(wildcard include/config/X86_CMOV) \
+    $(wildcard include/config/X86_P6_NOP) \
+    $(wildcard include/config/MATOM) \
+  arch/x86/include/asm/disabled-features.h \
+    $(wildcard include/config/X86_UMIP) \
+    $(wildcard include/config/INTEL_IOMMU_SVM) \
+    $(wildcard include/config/INTEL_TDX_GUEST) \
   arch/x86/include/asm/msr-index.h \
+  include/linux/bits.h \
+  include/vdso/bits.h \
   arch/x86/include/asm/unwind_hints.h \
   arch/x86/include/asm/orc_types.h \
+  arch/x86/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/x86/include/uapi/asm/swab.h \
+  include/linux/byteorder/generic.h \
   arch/x86/include/asm/percpu.h \
     $(wildcard include/config/X86_64_SMP) \
+  include/linux/kernel.h \
+    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
+    $(wildcard include/config/PREEMPT_) \
+    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/PROVE_LOCKING) \
+  include/linux/stdarg.h \
+  include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
+  include/linux/bitops.h \
+  include/linux/typecheck.h \
+  arch/x86/include/asm/bitops.h \
+  arch/x86/include/asm/rmwcc.h \
+    $(wildcard include/config/CC_HAS_ASM_GOTO) \
+  include/asm-generic/bitops/sched.h \
+  arch/x86/include/asm/arch_hweight.h \
+  include/asm-generic/bitops/const_hweight.h \
+  include/asm-generic/bitops/instrumented-atomic.h \
+  include/linux/instrumented.h \
+  include/asm-generic/bitops/instrumented-non-atomic.h \
+    $(wildcard include/config/KCSAN_ASSUME_PLAIN_WRITES_ATOMIC) \
+  include/asm-generic/bitops/instrumented-lock.h \
+  include/asm-generic/bitops/le.h \
+  include/asm-generic/bitops/ext2-atomic-setbit.h \
+  include/linux/kstrtox.h \
+  include/linux/log2.h \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  include/linux/minmax.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/kern_levels.h \
+  include/linux/ratelimit_types.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/x86/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
+  include/linux/once_lite.h \
+  include/linux/dynamic_debug.h \
+  include/linux/static_call_types.h \
+    $(wildcard include/config/HAVE_STATIC_CALL) \
+  include/linux/instruction_pointer.h \
   include/asm-generic/percpu.h \
     $(wildcard include/config/DEBUG_PREEMPT) \
     $(wildcard include/config/HAVE_SETUP_PER_CPU_AREA) \
@@ -606,15 +617,13 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/asm-generic/getorder.h \
   arch/x86/include/asm/msr.h \
   arch/x86/include/asm/msr-index.h \
-  arch/x86/include/generated/uapi/asm/errno.h \
-  include/uapi/asm-generic/errno.h \
-  include/uapi/asm-generic/errno-base.h \
   arch/x86/include/asm/cpumask.h \
   include/linux/cpumask.h \
     $(wildcard include/config/CPUMASK_OFFSTACK) \
     $(wildcard include/config/HOTPLUG_CPU) \
     $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
   include/linux/bitmap.h \
+  include/linux/find.h \
   include/linux/string.h \
     $(wildcard include/config/BINARY_PRINTF) \
     $(wildcard include/config/FORTIFY_SOURCE) \
@@ -639,18 +648,20 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/asm/bug.h \
     $(wildcard include/config/DEBUG_BUGVERBOSE) \
   include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
   include/asm-generic/bug.h \
     $(wildcard include/config/BUG) \
     $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
   arch/x86/include/uapi/asm/msr.h \
+  arch/x86/include/asm/shared/msr.h \
   include/linux/tracepoint-defs.h \
   arch/x86/include/asm/paravirt.h \
     $(wildcard include/config/PARAVIRT_SPINLOCKS) \
   arch/x86/include/asm/frame.h \
-    $(wildcard include/config/FRAME_POINTER) \
   arch/x86/include/asm/special_insns.h \
   include/linux/irqflags.h \
     $(wildcard include/config/TRACE_IRQFLAGS) \
+    $(wildcard include/config/PREEMPT_RT) \
     $(wildcard include/config/IRQSOFF_TRACER) \
     $(wildcard include/config/PREEMPT_TRACER) \
     $(wildcard include/config/DEBUG_IRQFLAGS) \
@@ -661,7 +672,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/asm/vdso/processor.h \
   include/linux/personality.h \
   include/uapi/linux/personality.h \
-  include/linux/err.h \
   arch/x86/include/asm/tsc.h \
   arch/x86/include/asm/cpufeature.h \
     $(wildcard include/config/X86_FEATURE_NAMES) \
@@ -687,7 +697,8 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/NUMA_BALANCING) \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
     $(wildcard include/config/HUGETLB_PAGE) \
-    $(wildcard include/config/IOMMU_SUPPORT) \
+    $(wildcard include/config/IOMMU_SVA) \
+    $(wildcard include/config/KSM) \
   include/linux/mm_types_task.h \
     $(wildcard include/config/SPLIT_PTLOCK_CPUS) \
     $(wildcard include/config/ARCH_ENABLE_SPLIT_PMD_PTLOCK) \
@@ -695,6 +706,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/auxvec.h \
   include/uapi/linux/auxvec.h \
   arch/x86/include/uapi/asm/auxvec.h \
+  include/linux/kref.h \
   include/linux/spinlock.h \
     $(wildcard include/config/PREEMPTION) \
   include/linux/preempt.h \
@@ -724,6 +736,8 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/generated/asm/mmiowb.h \
   include/asm-generic/mmiowb.h \
     $(wildcard include/config/MMIOWB) \
+  include/linux/spinlock_types.h \
+  include/linux/rwlock_types.h \
   arch/x86/include/asm/spinlock.h \
   arch/x86/include/asm/qspinlock.h \
   include/asm-generic/qspinlock.h \
@@ -762,11 +776,13 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQ) \
     $(wildcard include/config/INLINE_READ_UNLOCK_IRQRESTORE) \
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQRESTORE) \
+  include/linux/refcount.h \
   include/linux/rbtree.h \
   include/linux/rbtree_types.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/PREEMPT_RCU) \
     $(wildcard include/config/TINY_RCU) \
+    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
     $(wildcard include/config/TASKS_RCU_GENERIC) \
     $(wildcard include/config/RCU_STALL_COMMON) \
     $(wildcard include/config/NO_HZ_FULL) \
@@ -804,7 +820,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/WQ_WATCHDOG) \
   include/linux/timer.h \
     $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
-    $(wildcard include/config/NO_HZ_COMMON) \
   include/linux/ktime.h \
   include/linux/jiffies.h \
   include/vdso/jiffies.h \
@@ -825,12 +840,9 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/KASAN_HW_TAGS) \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
+    $(wildcard include/config/HAVE_ARCH_NODE_DEV_GROUP) \
   include/generated/bounds.h \
   include/linux/seqlock.h \
-  include/linux/ww_mutex.h \
-    $(wildcard include/config/DEBUG_RT_MUTEXES) \
-    $(wildcard include/config/DEBUG_WW_MUTEX_SLOWPATH) \
-  include/linux/rtmutex.h \
   arch/x86/include/asm/mmu.h \
     $(wildcard include/config/MODIFY_LDT_SYSCALL) \
   include/linux/kmod.h \
@@ -850,7 +862,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/FORCE_MAX_ZONEORDER) \
     $(wildcard include/config/MEMORY_ISOLATION) \
     $(wildcard include/config/ZSMALLOC) \
-    $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/MEMORY_HOTPLUG) \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/PAGE_EXTENSION) \
@@ -865,27 +876,28 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/ARCH_USES_PG_UNCACHED) \
     $(wildcard include/config/MEMORY_FAILURE) \
     $(wildcard include/config/PAGE_IDLE_FLAG) \
-    $(wildcard include/config/THP_SWAP) \
-    $(wildcard include/config/KSM) \
+    $(wildcard include/config/HUGETLB_PAGE_OPTIMIZE_VMEMMAP) \
+    $(wildcard include/config/HUGETLB_PAGE_OPTIMIZE_VMEMMAP_DEFAULT_ON) \
   include/linux/local_lock.h \
   include/linux/local_lock_internal.h \
   include/linux/memory_hotplug.h \
-    $(wildcard include/config/ARCH_HAS_ADD_PAGES) \
     $(wildcard include/config/HAVE_ARCH_NODEDATA_EXTENSION) \
+    $(wildcard include/config/ARCH_HAS_ADD_PAGES) \
     $(wildcard include/config/MEMORY_HOTREMOVE) \
+    $(wildcard include/config/MHP_MEMMAP_ON_MEMORY) \
   arch/x86/include/asm/mmzone.h \
   arch/x86/include/asm/mmzone_64.h \
   include/linux/topology.h \
     $(wildcard include/config/USE_PERCPU_NUMA_NODE_ID) \
     $(wildcard include/config/SCHED_SMT) \
   include/linux/arch_topology.h \
+    $(wildcard include/config/ACPI_CPPC_LIB) \
     $(wildcard include/config/GENERIC_ARCH_TOPOLOGY) \
   include/linux/percpu.h \
     $(wildcard include/config/NEED_PER_CPU_EMBED_FIRST_CHUNK) \
     $(wildcard include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK) \
   arch/x86/include/asm/topology.h \
     $(wildcard include/config/SCHED_MC_PRIO) \
-    $(wildcard include/config/ACPI_CPPC_LIB) \
   arch/x86/include/asm/mpspec.h \
     $(wildcard include/config/EISA) \
     $(wildcard include/config/X86_MPPARSE) \
@@ -905,7 +917,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/asm/user_64.h \
   arch/x86/include/asm/fsgsbase.h \
   arch/x86/include/asm/vdso.h \
-    $(wildcard include/config/X86_X32) \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/kobject.h \
@@ -920,8 +931,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/XARRAY_MULTI) \
   include/linux/kconfig.h \
   include/linux/kobject_ns.h \
-  include/linux/kref.h \
-  include/linux/refcount.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/ALPHA) \
     $(wildcard include/config/IA64) \
@@ -945,13 +954,13 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
     $(wildcard include/config/SCHED_INFO) \
     $(wildcard include/config/SCHEDSTATS) \
+    $(wildcard include/config/SCHED_CORE) \
     $(wildcard include/config/FAIR_GROUP_SCHED) \
     $(wildcard include/config/RT_GROUP_SCHED) \
     $(wildcard include/config/RT_MUTEXES) \
     $(wildcard include/config/UCLAMP_TASK) \
     $(wildcard include/config/UCLAMP_BUCKETS_COUNT) \
     $(wildcard include/config/KMAP_LOCAL) \
-    $(wildcard include/config/SCHED_CORE) \
     $(wildcard include/config/CGROUP_SCHED) \
     $(wildcard include/config/BLK_DEV_IO_TRACE) \
     $(wildcard include/config/PSI) \
@@ -960,6 +969,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/BLK_CGROUP) \
     $(wildcard include/config/PAGE_OWNER) \
     $(wildcard include/config/EVENTFD) \
+    $(wildcard include/config/CPU_SUP_INTEL) \
     $(wildcard include/config/ARCH_HAS_SCALED_CPUTIME) \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_GEN) \
     $(wildcard include/config/POSIX_CPUTIMERS) \
@@ -972,7 +982,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/AUDITSYSCALL) \
     $(wildcard include/config/UBSAN) \
     $(wildcard include/config/UBSAN_TRAP) \
-    $(wildcard include/config/BLOCK) \
     $(wildcard include/config/TASK_XACCT) \
     $(wildcard include/config/CPUSETS) \
     $(wildcard include/config/X86_CPU_RESCTRL) \
@@ -991,8 +1000,11 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
+    $(wildcard include/config/RETHOOK) \
     $(wildcard include/config/ARCH_HAS_PARANOID_L1D_FLUSH) \
     $(wildcard include/config/ARCH_TASK_STRUCT_ON_STACK) \
+    $(wildcard include/config/PREEMPT_NONE) \
+    $(wildcard include/config/PREEMPT_VOLUNTARY) \
     $(wildcard include/config/DEBUG_RSEQ) \
   include/uapi/linux/sched.h \
   include/linux/pid.h \
@@ -1058,7 +1070,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/posix-timers.h \
   include/linux/alarmtimer.h \
     $(wildcard include/config/RTC_CLASS) \
-  include/linux/task_work.h \
   include/uapi/linux/rseq.h \
   include/linux/kcsan.h \
   arch/x86/include/generated/asm/kmap_size.h \
@@ -1083,18 +1094,19 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/ARCH_WANTS_DYNAMIC_TASK_STRUCT) \
     $(wildcard include/config/HAVE_ARCH_THREAD_STRUCT_WHITELIST) \
   include/linux/uaccess.h \
-    $(wildcard include/config/SET_FS) \
+    $(wildcard include/config/ARCH_HAS_SUBPAGE_FAULTS) \
   include/linux/fault-inject-usercopy.h \
     $(wildcard include/config/FAULT_INJECTION_USERCOPY) \
   arch/x86/include/asm/uaccess.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO_OUTPUT) \
-    $(wildcard include/config/CC_ASM_GOTO_OUTPUT) \
     $(wildcard include/config/CC_HAS_ASM_GOTO_TIED_OUTPUT) \
     $(wildcard include/config/ARCH_HAS_COPY_MC) \
     $(wildcard include/config/X86_INTEL_USERCOPY) \
   arch/x86/include/asm/smap.h \
   arch/x86/include/asm/extable.h \
     $(wildcard include/config/BPF_JIT) \
+  include/asm-generic/access_ok.h \
+    $(wildcard include/config/ALTERNATE_USER_ADDRESS_SPACE) \
   arch/x86/include/asm/uaccess_64.h \
   include/linux/cred.h \
     $(wildcard include/config/DEBUG_CREDENTIALS) \
@@ -1107,6 +1119,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/ASSOCIATIVE_ARRAY) \
   include/linux/sched/user.h \
     $(wildcard include/config/EPOLL) \
+    $(wildcard include/config/VFIO_PCI_ZDEV_KVM) \
     $(wildcard include/config/WATCH_QUEUE) \
   include/linux/percpu_counter.h \
   include/linux/ratelimit.h \
@@ -1120,18 +1133,16 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/DEBUG_SLAB) \
     $(wildcard include/config/FAILSLAB) \
     $(wildcard include/config/MEMCG_KMEM) \
-    $(wildcard include/config/HAVE_HARDENED_USERCOPY_ALLOCATOR) \
     $(wildcard include/config/SLAB) \
     $(wildcard include/config/SLUB) \
     $(wildcard include/config/SLOB) \
-    $(wildcard include/config/CC_IS_GCC) \
-    $(wildcard include/config/CLANG_VERSION) \
   include/linux/overflow.h \
   include/linux/percpu-refcount.h \
   include/linux/kasan.h \
     $(wildcard include/config/KASAN_STACK) \
     $(wildcard include/config/KASAN_VMALLOC) \
     $(wildcard include/config/KASAN_INLINE) \
+  include/linux/kasan-enabled.h \
   include/linux/namei.h \
   include/linux/fs.h \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
@@ -1144,8 +1155,8 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/FS_VERITY) \
     $(wildcard include/config/UNICODE) \
     $(wildcard include/config/QUOTA) \
-    $(wildcard include/config/BLK_DEV_LOOP) \
     $(wildcard include/config/FS_DAX) \
+    $(wildcard include/config/BLOCK) \
     $(wildcard include/config/MIGRATION) \
   include/linux/wait_bit.h \
   include/linux/kdev_t.h \
@@ -1181,6 +1192,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/ioprio.h \
   include/linux/sched/rt.h \
   include/linux/iocontext.h \
+    $(wildcard include/config/BLK_ICQ) \
   include/uapi/linux/ioprio.h \
   include/linux/fs_types.h \
   include/linux/mount.h \
@@ -1221,25 +1233,32 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/VLAN_8021Q) \
     $(wildcard include/config/NET_DSA) \
     $(wildcard include/config/TIPC) \
-    $(wildcard include/config/IRDA) \
     $(wildcard include/config/ATALK) \
     $(wildcard include/config/DECNET) \
+    $(wildcard include/config/CFG80211) \
+    $(wildcard include/config/IEEE802154) \
+    $(wildcard include/config/6LOWPAN) \
     $(wildcard include/config/MPLS_ROUTING) \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/NET_CLS_ACT) \
     $(wildcard include/config/NETFILTER_INGRESS) \
+    $(wildcard include/config/NETFILTER_EGRESS) \
     $(wildcard include/config/NET_SCHED) \
     $(wildcard include/config/PCPU_DEV_REFCNT) \
     $(wildcard include/config/GARP) \
     $(wildcard include/config/MRP) \
+    $(wildcard include/config/NET_DROP_MONITOR) \
     $(wildcard include/config/CGROUP_NET_PRIO) \
     $(wildcard include/config/MACSEC) \
     $(wildcard include/config/NET_FLOW_LIMIT) \
+    $(wildcard include/config/NET_EGRESS) \
+    $(wildcard include/config/NET_DEV_REFCNT_TRACKER) \
     $(wildcard include/config/ETHTOOL_NETLINK) \
   include/linux/delay.h \
   arch/x86/include/asm/delay.h \
   include/asm-generic/delay.h \
   include/linux/prefetch.h \
+  arch/x86/include/asm/local.h \
   include/linux/dynamic_queue_limits.h \
   include/net/net_namespace.h \
     $(wildcard include/config/NF_CONNTRACK) \
@@ -1255,6 +1274,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
     $(wildcard include/config/NET_NS) \
+    $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
   include/linux/socket.h \
   arch/x86/include/generated/uapi/asm/socket.h \
@@ -1282,7 +1302,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/u64_stats_sync.h \
   arch/x86/include/generated/asm/local64.h \
   include/asm-generic/local64.h \
-  arch/x86/include/asm/local.h \
   include/net/netns/unix.h \
   include/net/netns/packet.h \
   include/net/netns/ipv4.h \
@@ -1335,16 +1354,12 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/net/netns/xdp.h \
   include/net/netns/smc.h \
   include/net/netns/bpf.h \
-  include/linux/bpf-netns.h \
-  include/uapi/linux/bpf.h \
-    $(wildcard include/config/CGROUP_BPF) \
-    $(wildcard include/config/BPF_LIRC_MODE2) \
-    $(wildcard include/config/EFFICIENT_UNALIGNED_ACCESS) \
-    $(wildcard include/config/CGROUP_NET_CLASSID) \
-    $(wildcard include/config/BPF_KPROBE_OVERRIDE) \
-    $(wildcard include/config/SOCK_CGROUP_DATA) \
-  include/uapi/linux/bpf_common.h \
   include/net/netns/mctp.h \
+  include/net/net_trackers.h \
+  include/linux/ref_tracker.h \
+    $(wildcard include/config/REF_TRACKER) \
+  include/linux/stackdepot.h \
+    $(wildcard include/config/STACKDEPOT) \
   include/linux/skbuff.h \
     $(wildcard include/config/BRIDGE_NETFILTER) \
     $(wildcard include/config/NET_TC_SKB_EXT) \
@@ -1353,18 +1368,21 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/IPV6_NDISC_NODETYPE) \
     $(wildcard include/config/NET_SWITCHDEV) \
     $(wildcard include/config/NET_REDIRECT) \
+    $(wildcard include/config/NETFILTER_SKIP_EGRESS) \
     $(wildcard include/config/NET_RX_BUSY_POLL) \
     $(wildcard include/config/NETWORK_SECMARK) \
     $(wildcard include/config/DEBUG_NET) \
     $(wildcard include/config/PAGE_POOL) \
     $(wildcard include/config/NETWORK_PHY_TIMESTAMPING) \
+    $(wildcard include/config/MCTP_FLOWS) \
     $(wildcard include/config/NETFILTER_XT_TARGET_TRACE) \
   include/linux/bvec.h \
   include/linux/highmem.h \
+  include/linux/cacheflush.h \
+  arch/x86/include/asm/cacheflush.h \
   include/linux/mm.h \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
-    $(wildcard include/config/DEBUG_INFO_BTF) \
     $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
     $(wildcard include/config/ARCH_HAS_PKEYS) \
     $(wildcard include/config/PPC) \
@@ -1374,9 +1392,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/ARM64_MTE) \
     $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
     $(wildcard include/config/SHMEM) \
-    $(wildcard include/config/DEV_PAGEMAP_OPS) \
-    $(wildcard include/config/DEVICE_PRIVATE) \
-    $(wildcard include/config/PCI_P2PDMA) \
     $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
     $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
     $(wildcard include/config/DEBUG_VM_RB) \
@@ -1386,18 +1401,15 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/DEBUG_PAGEALLOC) \
     $(wildcard include/config/HUGETLBFS) \
     $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
+    $(wildcard include/config/ANON_VMA_NAME) \
   include/linux/mmap_lock.h \
   include/linux/page_ext.h \
   include/linux/stacktrace.h \
-    $(wildcard include/config/STACKTRACE) \
     $(wildcard include/config/ARCH_STACKWALK) \
+    $(wildcard include/config/STACKTRACE) \
     $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
-  include/linux/stackdepot.h \
-    $(wildcard include/config/STACKDEPOT) \
   include/linux/page_ref.h \
     $(wildcard include/config/DEBUG_PAGE_REF) \
-  include/linux/memremap.h \
-  include/linux/ioport.h \
   include/linux/sizes.h \
   include/linux/pgtable.h \
     $(wildcard include/config/HIGHPTE) \
@@ -1409,10 +1421,13 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/X86_ESPFIX64) \
   arch/x86/include/asm/pgtable.h \
     $(wildcard include/config/DEBUG_WX) \
+    $(wildcard include/config/PAGE_TABLE_CHECK) \
   arch/x86/include/asm/pkru.h \
   arch/x86/include/asm/fpu/api.h \
     $(wildcard include/config/X86_DEBUG_FPU) \
+  arch/x86/include/asm/coco.h \
   include/asm-generic/pgtable_uffd.h \
+  include/linux/page_table_check.h \
   arch/x86/include/asm/pgtable_64.h \
   arch/x86/include/asm/fixmap.h \
     $(wildcard include/config/PROVIDE_OHCI1394_DMA_INIT) \
@@ -1433,6 +1448,8 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/vm_event_item.h \
     $(wildcard include/config/MEMORY_BALLOON) \
     $(wildcard include/config/BALLOON_COMPACTION) \
+    $(wildcard include/config/ZSWAP) \
+  include/asm-generic/cacheflush.h \
   include/linux/hardirq.h \
   include/linux/context_tracking_state.h \
     $(wildcard include/config/CONTEXT_TRACKING) \
@@ -1450,11 +1467,10 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/X86_MCE_AMD) \
     $(wildcard include/config/X86_HV_CALLBACK_VECTOR) \
     $(wildcard include/config/HYPERV) \
-  arch/x86/include/asm/cacheflush.h \
-  include/asm-generic/cacheflush.h \
   include/linux/highmem-internal.h \
   include/linux/net.h \
   include/linux/random.h \
+    $(wildcard include/config/VMGENID) \
     $(wildcard include/config/ARCH_RANDOM) \
   include/linux/once.h \
   include/uapi/linux/random.h \
@@ -1473,10 +1489,10 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/HAS_DMA) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/device.h \
-    $(wildcard include/config/ENERGY_MODEL) \
     $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
-    $(wildcard include/config/PINCTRL) \
     $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/PINCTRL) \
     $(wildcard include/config/DMA_OPS) \
     $(wildcard include/config/DMA_DECLARE_COHERENT) \
     $(wildcard include/config/DMA_CMA) \
@@ -1494,13 +1510,16 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/CPU_FREQ) \
   include/linux/sched/topology.h \
     $(wildcard include/config/SCHED_DEBUG) \
+    $(wildcard include/config/SCHED_CLUSTER) \
     $(wildcard include/config/SCHED_MC) \
     $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
   include/linux/sched/idle.h \
   include/linux/sched/sd_flags.h \
+  include/linux/ioport.h \
   include/linux/klist.h \
   include/linux/pm.h \
     $(wildcard include/config/VT_CONSOLE_SLEEP) \
+    $(wildcard include/config/CXL_SUSPEND) \
     $(wildcard include/config/PM) \
     $(wildcard include/config/PM_CLK) \
     $(wildcard include/config/PM_GENERIC_DOMAINS) \
@@ -1523,6 +1542,7 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/generated/asm/early_ioremap.h \
   include/asm-generic/early_ioremap.h \
     $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  arch/x86/include/asm/shared/io.h \
   include/asm-generic/iomap.h \
     $(wildcard include/config/HAS_IOPORT_MAP) \
   include/asm-generic/pci_iomap.h \
@@ -1547,15 +1567,21 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/pipe_fs_i.h \
   include/uapi/linux/if_packet.h \
   include/net/page_pool.h \
+    $(wildcard include/config/PAGE_POOL_STATS) \
   include/linux/ptr_ring.h \
+  include/net/net_debug.h \
   include/linux/seq_file_net.h \
   include/linux/seq_file.h \
+  include/linux/string_helpers.h \
+  include/linux/ctype.h \
   include/net/dcbnl.h \
   include/uapi/linux/dcbnl.h \
   include/net/netprio_cgroup.h \
   include/linux/cgroup.h \
     $(wildcard include/config/CGROUP_CPUACCT) \
+    $(wildcard include/config/SOCK_CGROUP_DATA) \
     $(wildcard include/config/CGROUP_DATA) \
+    $(wildcard include/config/CGROUP_BPF) \
   include/uapi/linux/cgroupstats.h \
   include/uapi/linux/taskstats.h \
   include/linux/user_namespace.h \
@@ -1572,22 +1598,10 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   arch/x86/include/asm/irq_vectors.h \
   arch/x86/include/asm/sections.h \
   include/asm-generic/sections.h \
+    $(wildcard include/config/HAVE_FUNCTION_DESCRIPTORS) \
   include/linux/cgroup-defs.h \
-  include/linux/bpf-cgroup.h \
-  include/linux/bpf.h \
-    $(wildcard include/config/BPF_JIT_ALWAYS_ON) \
-    $(wildcard include/config/INET) \
-  include/linux/file.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/KALLSYMS_ALL) \
-  include/linux/sched/mm.h \
-    $(wildcard include/config/ARCH_HAS_MEMBARRIER_CALLBACKS) \
-  include/linux/sync_core.h \
-    $(wildcard include/config/ARCH_HAS_SYNC_CORE_BEFORE_USERMODE) \
-  arch/x86/include/asm/sync_core.h \
-  include/linux/bpfptr.h \
-  include/linux/bpf_types.h \
-    $(wildcard include/config/BPF_LSM) \
+    $(wildcard include/config/CGROUP_NET_CLASSID) \
+  include/linux/bpf-cgroup-defs.h \
   include/linux/psi_types.h \
   include/linux/kthread.h \
   include/linux/cgroup_subsys.h \
@@ -1608,11 +1622,14 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/SECURITY_SELINUX) \
     $(wildcard include/config/SECURITY_SMACK) \
     $(wildcard include/config/SECURITY_APPARMOR) \
+    $(wildcard include/config/BPF_LSM) \
     $(wildcard include/config/SECURITY_INFINIBAND) \
     $(wildcard include/config/SECURITY_NETWORK_XFRM) \
     $(wildcard include/config/SECURITY_PATH) \
+    $(wildcard include/config/IMA_LSM_RULES) \
     $(wildcard include/config/SECURITYFS) \
   include/linux/kernel_read_file.h \
+  include/linux/file.h \
   include/uapi/linux/netlink.h \
   include/uapi/linux/netdevice.h \
   include/uapi/linux/if.h \
@@ -1625,11 +1642,11 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/uapi/linux/pkt_sched.h \
   include/linux/hashtable.h \
   include/linux/inetdevice.h \
+    $(wildcard include/config/INET) \
   include/linux/ip.h \
   include/uapi/linux/ip.h \
   include/linux/rtnetlink.h \
     $(wildcard include/config/NET_INGRESS) \
-    $(wildcard include/config/NET_EGRESS) \
   include/uapi/linux/rtnetlink.h \
   include/uapi/linux/if_addr.h \
   include/linux/circ_buf.h \
@@ -1674,7 +1691,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/SOCK_VALIDATE_XMIT) \
   include/linux/page_counter.h \
   include/linux/memcontrol.h \
-    $(wildcard include/config/MEMCG_SWAP) \
   include/linux/vmpressure.h \
   include/linux/eventfd.h \
   include/linux/writeback.h \
@@ -1686,43 +1702,8 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
     $(wildcard include/config/BLK_CGROUP_IOCOST) \
     $(wildcard include/config/BLK_INLINE_ENCRYPTION) \
     $(wildcard include/config/BLK_DEV_INTEGRITY) \
-  include/linux/blk-cgroup.h \
-    $(wildcard include/config/BLK_CGROUP_FC_APPID) \
-  include/linux/blkdev.h \
-    $(wildcard include/config/BLK_RQ_ALLOC_TIME) \
-    $(wildcard include/config/BLK_WBT) \
-    $(wildcard include/config/BLK_DEV_ZONED) \
-    $(wildcard include/config/BLK_DEV_THROTTLING) \
-    $(wildcard include/config/BLK_DEBUG_FS) \
-  include/uapi/linux/major.h \
-  include/linux/genhd.h \
-    $(wildcard include/config/BLOCK_HOLDER_DEPRECATED) \
-    $(wildcard include/config/CDROM) \
-  include/linux/mempool.h \
   include/linux/bio.h \
-  include/uapi/linux/blkzoned.h \
-  include/linux/sbitmap.h \
-  include/linux/elevator.h \
-  include/linux/blk-mq.h \
-    $(wildcard include/config/FAIL_IO_TIMEOUT) \
-  include/linux/filter.h \
-    $(wildcard include/config/HAVE_EBPF_JIT) \
-  include/linux/set_memory.h \
-    $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
-    $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
-  arch/x86/include/asm/set_memory.h \
-  include/asm-generic/set_memory.h \
-  include/linux/if_vlan.h \
-  include/uapi/linux/if_vlan.h \
-  include/crypto/sha1.h \
-  include/net/sch_generic.h \
-  include/uapi/linux/pkt_cls.h \
-  include/net/gen_stats.h \
-  include/uapi/linux/gen_stats.h \
-  include/net/rtnetlink.h \
-  include/net/netlink.h \
-  include/net/flow_offload.h \
-  include/uapi/linux/filter.h \
+  include/linux/mempool.h \
   include/linux/rculist_nulls.h \
   include/linux/poll.h \
   include/uapi/linux/poll.h \
@@ -1732,6 +1713,8 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/linux/indirect_call_wrapper.h \
   include/net/dst.h \
   include/net/neighbour.h \
+  include/net/rtnetlink.h \
+  include/net/netlink.h \
   include/net/tcp_states.h \
   include/uapi/linux/net_tstamp.h \
   include/net/l3mdev.h \
@@ -1751,17 +1734,14 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/net/if_inet6.h \
   include/net/ipv6.h \
   include/linux/jump_label_ratelimit.h \
-  include/net/ndisc.h \
-  include/net/ipv6_stubs.h \
-  include/linux/icmpv6.h \
-    $(wildcard include/config/NF_NAT) \
+  include/net/inet_dscp.h \
   include/linux/if_arp.h \
     $(wildcard include/config/FIREWIRE_NET) \
   include/uapi/linux/if_arp.h \
   include/net/ieee80211_radiotap.h \
   include/linux/ieee80211.h \
+  include/linux/bitfield.h \
   include/net/cfg80211.h \
-    $(wildcard include/config/CFG80211) \
     $(wildcard include/config/NL80211_TESTMODE) \
     $(wildcard include/config/CFG80211_WEXT) \
   include/linux/ethtool.h \
@@ -1785,7 +1765,6 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
   include/net/regulatory.h \
   include/linux/usb.h \
     $(wildcard include/config/USB_MON) \
-    $(wildcard include/config/USB) \
     $(wildcard include/config/USB_LED_TRIG) \
   include/linux/mod_devicetable.h \
   include/linux/usb/ch9.h \
@@ -2099,3 +2078,5 @@ deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.
 /home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o: $(deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o)
 
 $(deps_/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o):
+
+/home/mason/Downloads/RTL8852BU_RTL8832BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211230/driver/rtl8852BU_WiFi_linux_v1.15.7-112-g1d36f2f7.20211227/phl/hal_g6/mac/fw_ax/rtl8852b/hal8852b_fw_u1.o: $(wildcard ./tools/objtool/objtool)
